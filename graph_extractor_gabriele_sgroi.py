@@ -299,7 +299,7 @@ if __name__ == '__main__':
     if not folder.is_dir(): raise Exception(f"Folder not found {folder}")
     print(f"folder: {folder}")
     file = folder.joinpath("relations.json")
-    if not file.is_file(): raise Exception(f"File not found {file}")
+    #if not file.is_file(): raise Exception(f"File not found {file}")
     
     # Uncomment the two below to rebuild or create the Knowledge Graph for the first time.  
     # Once the knowledge graph is built, you only need to run ex_graph_extractor_gabriele_sgroi_query().
